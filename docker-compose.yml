@@ -19,7 +19,7 @@ services:
       - db:/var/lib/postgresql/data
 
   app:
-    image: umap/umap:3.0.2
+    image: umap/umap:3.5.0
     depends_on:
       db:
         condition: service_healthy
